@@ -1,0 +1,56 @@
+body {
+    /* width: 100%;
+    min-height: 100vh;
+    background-color: #fff;
+    background-image: url('2.png');
+    background-size: cover;
+    background-position: center;
+    background-position: no-repeat;
+    color: #333;
+    display: flex;
+    margin: 0;
+    overflow: scroll; */
+}
+
+h1 {
+    padding-top: 50px;
+    margin-bottom: 5rem;
+    font-size: 2.5rem;
+    font-weight: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+.countdown > ul {
+    display: flex;
+    justify-content:center;
+
+}
+.countdown > ul > li {
+   list-style-type: none;
+   font-size: 1rem;
+   text-transform: uppercase;
+   text-align: center;
+}
+
+.countdown > ul > li > span {
+    display: block;
+    font-size: 6rem;
+    color: hwb(0 0% 100%);
+}
+
+.countdown > ul > li.separator {
+    font-size: 6rem;
+    line-height: 1;
+    color:#333
+}
+
+li:first-of-type {
+    margin-right:5rem;
+}
+
+
+
+
